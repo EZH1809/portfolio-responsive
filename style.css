@@ -214,3 +214,9 @@ section.active .menu {
   display: inline-block;
   transition: 0.25s;
 }
+.menu li:hover a {
+  letter-spacing: 6px;
+  background: #fff;
+  color: #161a23;
+}
+/*--now, make it responsive*/
