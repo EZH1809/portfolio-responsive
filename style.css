@@ -30,6 +30,11 @@ section::before {
   border-radius: 50%;
   box-shadow: 0 0 20px #1de5ff, 0 0 50px #1de5ff, 0 0 150px #1de5ff;
 }
+section.active::before {
+  background: #21283a;
+  box-shadow: 0 0 0 1200px #141821;
+  transition: 1s;
+}
 header {
   position: fixed;
   top: 0;
@@ -62,6 +67,12 @@ header .toggle {
   background-position: center;
   block-size: 30px;
   cursor: pointer;
+}
+header .toggle.active {
+  background: url(./images/close.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  block-size: 30px;
 }
 .girl {
   position: absolute;

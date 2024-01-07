@@ -24,6 +24,15 @@
         <img src="./images/girl.png" class="girl">
 
     </section>
+    <script>
+        let banner = document.querySelector('.banner');
+        let menutoggle = document.querySelector('.toggle');
+        menutoggle.onclick = function () {
+            menutoggle.classList.toggle('active');
+            banner.classList.toggle('active');
+        }
+
+    </script>
 </body>
 
 </html>
