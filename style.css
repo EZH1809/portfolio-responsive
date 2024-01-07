@@ -112,3 +112,20 @@ header .toggle.active {
   line-height: 1em;
   color: #fff;
 }
+.content .contentBx p {
+  font-size: 1em;
+  color: #fff;
+  margin: 10px 0;
+}
+.content .contentBx a {
+  display: inline-block;
+  color: #fff;
+  padding: 10px 20px;
+  margin-right: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 2px solid #1de5ff;
+  letter-spacing: 2px;
+  transition: 0.5s;
+}
