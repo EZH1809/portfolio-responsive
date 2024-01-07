@@ -80,3 +80,17 @@ header .toggle.active {
   right: 80px;
   width: 550px;
 }
+.content {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+}
+.content .contentBx {
+  position: relative;
+  min-width: 600px;
+  z-index: 100;
+}
